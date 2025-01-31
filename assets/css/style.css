@@ -43,7 +43,7 @@ input {
 /* header style */
 .header {
   height: 768px;
-  background-image: url("/assets/images/back ground.png");
+  background-image: url("../images/backgruond.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
