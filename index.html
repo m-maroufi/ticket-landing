@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="./assets/lib/aos-master/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/IranSansX/fontiran.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>کنسرت | اورکست</title>
@@ -28,14 +28,20 @@
       <img class="shape left" src="./assets/images/Object1.png" alt="" />
     </header>
     <main class="main">
-      <div class="video-wrapper">
+      <div class="video-wrapper" data-aos="zoom-out-down">
         <video src="./assets/videos/video.mp4" muted autoplay></video>
         <div class="text-wrapper-video">
           <h1>رویدادی بزرگ در بلند ترین برج ایران</h1>
           <h3>با حضور هنرمندان بزرگ کشور</h3>
           <a href="/" class="link-btn gold">مشاهده و خرید بلیط</a>
         </div>
-        <img class="tower" src="./assets/images/milad.png" alt="" />
+        <img
+          class="tower"
+          src="./assets/images/milad.png"
+          alt=""
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        />
       </div>
       <div class="note">
         <img src="./assets/images/notes.png" alt="" />
@@ -43,28 +49,46 @@
       <section class="leader-section">
         <div class="wrapper container">
           <div class="box">
-            <div class="leader-img">
+            <div class="leader-img" data-aos="zoom-in-left">
               <img src="./assets/images/leader-1.png" alt="" />
             </div>
             <div class="text">
               <h2>رهبر گروه ارکست</h2>
               <ul class="list">
-                <li>سابقه 10 ساله در زمینه موسیقی</li>
-                <li>تجربه 5 ساله در رهبری ارکست</li>
-                <li>سابقه همکاری با هنرمندان بزرگ</li>
+                <li data-aos="fade-up" data-aos-duration="500">
+                  سابقه 10 ساله در زمینه موسیقی
+                </li>
+                <li data-aos="fade-up" data-aos-duration="1000">
+                  تجربه 5 ساله در رهبری ارکست
+                </li>
+                <li data-aos="fade-up" data-aos-duration="1500">
+                  سابقه همکاری با هنرمندان بزرگ
+                </li>
               </ul>
             </div>
           </div>
           <div class="box">
             <div class="leader-img">
-              <img src="./assets/images/img-2.jpg" alt="" />
+              <img
+                src="./assets/images/img-2.jpg"
+                alt=""
+                data-aos="zoom-in-right"
+              />
             </div>
             <div class="text">
               <h2>رهبر گروه ارکست</h2>
               <ul class="list">
-                <li>سابقه 10 ساله در زمینه موسیقی</li>
-                <li>تجربه 5 ساله در رهبری ارکست</li>
-                <li>سابقه همکاری با هنرمندان بزرگ</li>
+                <ul class="list">
+                  <li data-aos="fade-up" data-aos-duration="500">
+                    سابقه 10 ساله در زمینه موسیقی
+                  </li>
+                  <li data-aos="fade-up" data-aos-duration="1000">
+                    تجربه 5 ساله در رهبری ارکست
+                  </li>
+                  <li data-aos="fade-up" data-aos-duration="1500">
+                    سابقه همکاری با هنرمندان بزرگ
+                  </li>
+                </ul>
               </ul>
             </div>
           </div>
@@ -72,7 +96,7 @@
       </section>
     </main>
     <!-- js -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/lib/aos-master/dist/aos.js"></script>
     <script src="./assets/js/app.js"></script>
   </body>
 </html>

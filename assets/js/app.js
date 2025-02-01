@@ -4,6 +4,7 @@ const rightCurtains = document.querySelector(".curtain.right");
 window.addEventListener("DOMContentLoaded", (e) => {
   rightCurtains.style.scale = "1.2";
   leftCurtains.style.scale = "1.2";
+  AOS.init();
 });
 
 window.addEventListener("scroll", () => {
